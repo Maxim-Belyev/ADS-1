@@ -32,7 +32,7 @@ uint64_t nextPrime(uint64_t value) {
         value++;
         for (uint64_t i = 2; i <=value ; i++) {
             if (value % i == 0) {
-            k++;
+                k++;
             }
         }
         if (k == 2){
